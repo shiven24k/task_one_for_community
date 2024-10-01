@@ -1,0 +1,108 @@
+*{
+    padding: 10px;
+    margin: 10px;
+    background: #f9f3fa;
+}
+
+.outer_shell{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 930px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+h2 {
+    align-self: flex-start;
+    margin-bottom: 10px;
+    font-size: xx-large;
+}
+
+.elements{
+    height: 129px;
+    width: 900px;
+    padding: 2px;
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    
+}
+.color_change1{
+    background: #f9f3fa;
+}
+.color_change2{
+    background: #f3e1f7;
+}
+.color_change3{
+    background: #faeae2;
+}
+.color_change4{
+    background: #e2f8d6;
+}
+.time_box{
+    position: relative;
+    border-radius: 15px;
+    height: 90px;
+    width: 120px;
+}
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.time{
+    padding-top: 0;
+    font-weight: 600;
+    font-size: xx-large;
+}
+.day{
+    padding-bottom: 0;
+    font-size: small;
+    font-weight: 500;
+}
+.event_data{
+    background: white;
+}
+b,p{
+    background-color: white;
+}
+b{
+    font-size: large;
+}
+.button_area{
+    background: white;
+    
+}
+button{
+    border: none;
+    width: 200px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+}
+.plus{
+    display: inline-block;
+    background-color: white;
+    font-size:x-large;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+}
+.button_area :hover{
+    background: black;
+    color: white;
+}
+button:hover .plus {
+    background: black;
+    color: white;
+}
+.elements:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transform: scale(1.01); 
+    transition: transform 0.3s ease;
+}
